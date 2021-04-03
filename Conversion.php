@@ -98,7 +98,7 @@
 
             $endpoint = 'latest';
             $this->base = $base;
-            $access_key = '14d74c57f14c2e4f03b6f32a'; //<- ds258 ------ tmkoc -> daf75307b508720224bdf31a
+            $access_key = '14d74c57f14c2e4f03b6f32a'; 
             $ch = curl_init('https://v6.exchangerate-api.com/v6/' . $access_key . "/" . $endpoint . "/" . $this->base);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
