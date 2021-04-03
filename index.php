@@ -39,7 +39,7 @@
 
         #bg-color{
             background-image: url("background.jpg");
-            background-repeat: no-repeat;
+            background-repeat: revert
             /*background-attachment: fixed;*/
             background-size: 100% 100%;
         }
