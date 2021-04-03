@@ -42,7 +42,7 @@
             /*
                 Here we will scrape the ISO Notations of Top 10 Economies that we previously scraped.
             */
-//            $this->economies();
+            
             $html1 = file_get_html("https://docs.1010data.com/1010dataReferenceManual/DataTypesAndFormats/currencyUnitCodes.html");
             foreach ($html1->find("table#topic_m4v_rt3_5r__table_k2t_fv3_5r tbody tr") as $val) {
                 foreach ($this->countries as $val1) {
@@ -82,6 +82,7 @@
             $this->c_countries = $temp;
             $this->codes = $temp2;
             $this->currency = $temp3;
+            
             return array($temp, $temp2, $temp3);
 
         }
