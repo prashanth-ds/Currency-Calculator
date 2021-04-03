@@ -2,8 +2,6 @@
 
     include ("Conversion.php");
 
-
-
     if(isset($_POST['submit'])){
         $value = $_POST['amount'];
         $type = $_POST['currency'];
@@ -39,8 +37,7 @@
 
         #bg-color{
             background-image: url("background.jpg");
-            background-repeat: revert
-            /*background-attachment: fixed;*/
+            background-repeat: revert;
             background-size: 100% 100%;
         }
 
@@ -141,7 +138,6 @@
                     for ($i =0 ; $i<10 ; $i++){
                         echo "<tr><td>".$index."</td><td>".$inputs[0][$i]."</td>
                                 <td>".$inputs[2][$i]."</td>";
-//                        <td>".$inputs[2][$i]." (".$inputs[1][$i].")"."</td>
                         for($j=0 ; $j<8 ; $j++){
                             if($inputs[1][$i] == $received[0][$j]){
                                 echo "<td>".round((float)$value * $received[1][$j], 3)." ".$inputs[1][$i]."</td></tr>";
@@ -153,7 +149,6 @@
                 ?>
             </tbody>
         </table>
-
     </form>
 </div>
 
