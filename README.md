@@ -9,6 +9,7 @@ https://calc-currency.herokuapp.com
 
 #### Scraped using PHP Simple HTML DOM Parser
 > https://sourceforge.net/projects/simplehtmldom
+---
 
 ##### Scraping Top 10 Economies in the World
 ---
