@@ -6,6 +6,8 @@ https://calc-currency.herokuapp.com
 
 >> Basically comparing proefficiency between currencies.
 
+<br/>
+<br/>
 
 #### Scraped using PHP Simple HTML DOM Parser
 > https://sourceforge.net/projects/simplehtmldom
