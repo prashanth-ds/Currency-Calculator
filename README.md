@@ -7,6 +7,8 @@ https://calc-currency.herokuapp.com
 >> Basically comparing proefficiency between currencies.
 
 
+#### Scraped using PHP Simple HTML DOM Parser
+> https://sourceforge.net/projects/simplehtmldom
 
 ##### Scraping Top 10 Economies in the World
 ---
