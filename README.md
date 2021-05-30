@@ -2,6 +2,11 @@
 
 https://calc-currency.herokuapp.com
 
+### Any Queries
+Mail Me- <prashanthds258@gmail.com>
+
+<br/>
+
 >> This PHP WebApp is used to convert currencies from one standard to all the top 10 Economies in the world.
 
 >> Basically comparing proefficiency between currencies.
